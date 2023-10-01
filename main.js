@@ -1,3 +1,4 @@
+const header = document.querySelector("header")
 const slider = document.querySelector("#slider")
 const sliderMain = document.querySelector(".slider-main")
 const sliderItems = document.querySelectorAll('.slider-item')
@@ -9,6 +10,18 @@ const slidesLength = sliderItems.length;
 let positionX = 0;
 let index = 0;
 
+// Scroll header
+window.addEventListener("scroll", () => {
+    const x = window.scrollY
+    if (x > 0) {
+        header.classList.add("sticky")
+    }
+    else {
+        header.classList.remove("sticky")
+    }
+})
+
+// Slider
 nextBtn.addEventListener("click", function () {
     handleChangeSlide(1)
 })

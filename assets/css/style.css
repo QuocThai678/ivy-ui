@@ -1,3 +1,10 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #57585A;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +21,7 @@ li {
 
 a {
     text-decoration: none;
-    color: #000;
+    color: var(--black-color);
 }
 
 header{
@@ -23,6 +30,12 @@ header{
     padding: 12px 50px;
     height: 70px;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.3);
 }
 
 .logo {
@@ -43,7 +56,7 @@ header{
     font-size: 12px;
     font-weight: 600;
     display: block;
-    line-height: 20px;
+    line-height: 1.2;
 }
 
 .sub-nav {
@@ -52,15 +65,15 @@ header{
     border: 1px solid #ccc;
     padding: 10px 0 10px 20px;
     visibility: hidden;
-    top: 50px;
+    top: 55px;
     transition: 0.3s;
-    background-color: #fff;
+    background-color: var(--white-color);
     z-index: 10;
 }
 
 .navbar > li:hover .sub-nav {
     visibility: visible;
-    top: 30px;
+    top: 42px;
 }
 
 .sub-nav ul {
@@ -83,10 +96,13 @@ header{
 
 .others > li {
     padding: 0 12px;
+    border-left: 1px solid #ccc;
 }
 
 .others > li:first-child{
     position: relative;
+    border: none;
+
 }
 
 
@@ -94,6 +110,7 @@ header{
     width: 100%;
     border: none;
     border-bottom: 1px solid #333;
+    background-color: transparent;
     outline: none;
 }
 
@@ -102,9 +119,18 @@ header{
     right: 12px;
 }
 
+.header-icon{
+    cursor: pointer;
+}
+header.sticky,
+header:hover {
+    background-color: rgba(255, 255, 255, 1);
+    transition: background-color linear 0.1s;
+}
+
+
+
 #slider {
-    /* max-width: 1000px; */
-    margin: 25px auto;
     position: relative;
 }
 
@@ -121,7 +147,7 @@ header{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    color: #fff;
+    color: var(--white-color);
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -147,7 +173,7 @@ header{
 .slider-dot-item {
     width: 15px;
     height: 15px;
-    background-color: #000;
+    background-color: var(--text-color);
     z-index: 10;
     border-radius: 50%;
     margin: 0 12px;
@@ -185,4 +211,85 @@ header{
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+/* footer */
+
+.app-container {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.download {
+    margin: 28px;
+}
+
+.download img {
+   height: 30px;
+   margin: 0 8px
+}
+
+.app-container h3 {
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: var(--black-color);
+    font-weight: 600;
+}
+
+
+.app-container input {
+    margin-top: 32px;
+    border: none;
+    border-bottom: 1px solid var(--black-color);
+    padding-bottom: 4px;
+    width: 400px;
+    text-align: center;
+    outline: none;
+}
+
+.send-icon {
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+}
+
+.footer-top ul{
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.footer-top li {
+    border-left: 1px solid #ccc;
+}
+
+.footer-top li:first-child {
+    border: none;
+}
+
+.footer-top a {
+    display: inline-block;
+    padding: 0 8px;
+    font-weight: 600;
+}
+
+.footer-bottom span {
+    font-weight: 600;
+}
+
+.footer-bottom p {
+    color: var(--text-color);
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.footer-bottom p:last-child {
+    margin-top: 12px;
+    font-size: 16px;
 }
