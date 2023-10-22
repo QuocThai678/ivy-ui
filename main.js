@@ -20,3 +20,22 @@ itemsSliderbar.forEach((menu, index) => {
         menu.classList.toggle("block")
     })
 })
+// Products
+
+const bigImg = document.querySelector(".product-content-left-big-img img")
+const smallImg = document.querySelectorAll(".product-content-left-small-img img")
+
+smallImg.forEach((imgItem, index) => {
+    imgItem.addEventListener("click", () => {
+        bigImg.src = imgItem.src
+    })
+    
+})
+
+// Mo rong thong tin san pham
+
+const productDetailsBtn = document.querySelector('.product-content-right-bottom-top')
+const productDetail = document.querySelector(".tabs-product-details")
+productDetailsBtn.addEventListener("click", () => {
+    productDetail.classList.toggle('active')
+})
