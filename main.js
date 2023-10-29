@@ -36,6 +36,13 @@ smallImg.forEach((imgItem, index) => {
 
 const productDetailsBtn = document.querySelector('.product-content-right-bottom-top')
 const productDetail = document.querySelector(".tabs-product-details")
+const iconDetails = document.querySelectorAll(".product-content-right-bottom-top i")
+
 productDetailsBtn.addEventListener("click", () => {
     productDetail.classList.toggle('active')
+
+    Array.from(iconDetails).forEach(icon => {
+        icon.classList.toggle('active')
+    })
+    
 })

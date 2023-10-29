@@ -6,6 +6,7 @@ const panes = $$('.tab-pane')
 
 const tabLine = $('.tab-line')
 
+
 tabLine.style.left = $('.tab-item.active').offsetLeft + 'px'
 tabLine.style.width = $('.tab-item.active').offsetWidth + 'px'
 
