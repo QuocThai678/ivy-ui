@@ -25,12 +25,13 @@ itemsSliderbar.forEach((menu, index) => {
 const bigImg = document.querySelector(".product-content-left-big-img img")
 const smallImg = document.querySelectorAll(".product-content-left-small-img img")
 
-smallImg.forEach((imgItem, index) => {
+smallImg.forEach((imgItem) => {
     imgItem.addEventListener("click", () => {
         bigImg.src = imgItem.src
     })
     
 })
+
 
 // Mo rong thong tin san pham
 
