@@ -1,49 +1,35 @@
-const header = document.querySelector("header")
 
+// Open/ Close cart
 
-// Scroll header
-window.addEventListener("scroll", () => {
-    const x = window.scrollY
-    if (x > 0) {
-        header.classList.add("sticky")
-    }
-    else {
-        header.classList.remove("sticky")
-    }
+const cartIcon = document.querySelector('.header__cart')
+const cart = document.querySelector('.header__cart-action')
+const closeCart = document.querySelector('.header__cart-heading i')
+
+cartIcon.addEventListener("click", () => {
+    cart.classList.add('open')
 })
 
-// Menu slidebar category
-const itemsSliderbar = document.querySelectorAll(".category-left-item")
+cart.addEventListener("click", (e) => {
+    e.stopPropagation()
+})
 
-itemsSliderbar.forEach((menu, index) => {
-    menu.addEventListener("click", () => {
-        menu.classList.toggle("block")
+closeCart.addEventListener("click", () => {
+    cart.classList.remove('open')
+})
+
+
+// Open product size list
+
+const productSize = document.querySelectorAll('.product-item-cart')
+const productSizeList = document.querySelectorAll('.product-size-list')
+productSize.forEach(item => {
+    item.addEventListener("click", (e) => {
+        item.classList.toggle("active")
     })
 })
-// Products
 
-const bigImg = document.querySelector(".product-content-left-big-img img")
-const smallImg = document.querySelectorAll(".product-content-left-small-img img")
-
-smallImg.forEach((imgItem) => {
-    imgItem.addEventListener("click", () => {
-        bigImg.src = imgItem.src
+productSizeList.forEach(item => {
+    item.addEventListener("click", (e) => {
+        e.stopPropagation()
     })
-    
-})
-
-
-// Mo rong thong tin san pham
-
-const productDetailsBtn = document.querySelector('.product-content-right-bottom-top')
-const productDetail = document.querySelector(".tabs-product-details")
-const iconDetails = document.querySelectorAll(".product-content-right-bottom-top i")
-
-productDetailsBtn.addEventListener("click", () => {
-    productDetail.classList.toggle('active')
-
-    Array.from(iconDetails).forEach(icon => {
-        icon.classList.toggle('active')
-    })
-    
-})
+}) 

@@ -6,150 +6,3017 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ivy-Project</title>
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.2-web/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <!-- header -->
-    <header>
-        <div class="logo">
-            <a href="#"><img src="./assets/images/logo.png" alt="Ivy-Shop"></a>
-        </div>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__navbar">
+                <ul class="header__list">
+                    <li class="header__list-item">
+                        <a href="#">NỮ</a>
+                        <ul class="header__subnav">
+                            <div class="header__cat">
+                                <ul class="header__cat-list">
+                                    <li class="header__cat-item">
+                                        <a href="#">NEW ARRIVAL</a>
+                                    </li>
 
-        <div class="navbar">
-            <li><a href="">NỮ</a>
-                <ul class="sub-nav">
-                    <li><a href="">Hàng mới về</a></li>
-                    <li><a href="">Collection</a></li>
-                    <li><a href="">Áo</a>
-                        <ul>
-                            <li><a href="">Áo sơ mi</a></li>
-                            <li><a href="">Áo thun</a></li>
-                            <li><a href="">Áo vest</a></li>
-                            <li><a href="">Áo len</a></li>
-                            <li><a href="">Áo khoác</a></li>
+                                    <li class="header__cat-item">
+                                        <a href="#">DELICATE URBAN</a>
+                                    </li>
+
+                                    <li class="header__cat-item">
+                                        <a href="#">QUIETLUXURY</a>
+                                    </li>
+
+                                    <li class="header__cat-item">
+                                        <a href="#">EXPRESS - FALL/WINTER 2023 COLLECTION</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="header__menu">
+                                <div class="header__submenu">
+                                    <h3 class="header__menu-heading">ÁO</h3>
+                                    <ul class="header__menu-list">
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Áo sơ mi</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Áo kiểu</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Áo croptop</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Áo dáng peplum</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Áo thun/ len ngắn tay</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Áo thun/ len dài tay</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="header__submenu">
+                                    <h3 class="header__menu-heading">ÁO KHOÁC</h3>
+                                    <ul class="header__menu-list">
+                                        <li class="header__menu-item">
+                                            <a href="#">Áo vest/ blazer</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Áo khoác dáng lửng</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Áo dạ</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Áo phao</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Áo khoác len</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Áo măng tô</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="header__submenu">
+                                    <h3 class="header__menu-heading">ÁO DÀI</h3>
+                                    <ul class="header__menu-list">
+                                        <li class="header__menu-item">
+                                            <a href="#">Áo dài</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="header__submenu">
+                                    <h3 class="header__menu-heading">SET BỘ</h3>
+                                    <ul class="header__menu-list">
+                                        <li class="header__menu-item">
+                                            <a href="#">Set bộ vest</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Set bộ kiểu</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Set bộ thun</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="header__submenu">
+                                    <h3 class="header__menu-heading">QUẦN & JUMPSUIT</h3>
+                                    <ul class="header__menu-list">
+                                        <li class="header__menu-item">
+                                            <a href="#">Quần suông</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Quần jeans</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Quần ống loe</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Quần ống đứng/ baggy</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Quần lửng/ short</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Quần thun</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Jumpsuit</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="header__submenu">
+                                    <h3 class="header__menu-heading">CHÂN VÁY</h3>
+                                    <ul class="header__menu-list">
+                                        <li class="header__menu-item">
+                                            <a href="#">Chân váy bút chì</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Chân váy chữ A</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Chân váy xếp ly</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Chân váy kiểu</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Chân váy jeans</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="header__submenu">
+                                    <h3 class="header__menu-heading">ĐẦM</h3>
+                                    <ul class="header__menu-list">
+                                        <li class="header__menu-item">
+                                            <a href="#">Đầm kiểu</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Đầm maxi/ voan</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Đầm thun</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="header__submenu">
+                                    <h3 class="header__menu-heading">SENORA</h3>
+                                    <ul class="header__menu-list">
+                                        <li class="header__menu-item">
+                                            <a href="#">Senora - Đầm dạ hội</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="header__submenu">
+                                    <h3 class="header__menu-heading">PHỤ KIỆN</h3>
+                                    <ul class="header__menu-list">
+                                        <li class="header__menu-item">
+                                            <a href="#">Đồ lót</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Phụ kiện</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Giày/dép & Sandals</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Túi/ ví</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+                            </div>
+
                         </ul>
                     </li>
+                    <li class="header__list-item">
+                        <a href="#">NAM</a>
+                        <ul class="header__subnav">
+                            <div class="header__cat">
+                                <ul class="header__cat-list">
+                                    <li class="header__cat-item">
+                                        <a href="#">NEW ARRIVAL</a>
+                                    </li>
+                                </ul>
+                            </div>
 
-                    <li><a href="">Quần</a>
-                        <ul>
-                            <li><a href="">Quần jean</a></li>
-                            <li><a href="">Quần lửng</a></li>
-                            <li><a href="">Quần dài</a></li>
+                            <div class="header__menu">
+                                <div class="header__submenu">
+                                    <h3 class="header__menu-heading">ÁO</h3>
+                                    <ul class="header__menu-list">
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Áo thun</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Áo khoác Nam</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Áo polo</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Áo sơ mi</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Áo phao</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Áo len</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Áo vest</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="header__submenu">
+                                    <h3 class="header__menu-heading">QUẦN NAM</h3>
+                                    <ul class="header__menu-list">
+                                        <li class="header__menu-item">
+                                            <a href="#">Quần jeans</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Quần lửng/short</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Quần dài</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Quần khaki</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Quần tây</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="header__submenu">
+                                    <h3 class="header__menu-heading">GIÀY & DÉP</h3>
+                                    <ul class="header__menu-list">
+                                        <li class="header__menu-item">
+                                            <a href="#">Giày/Dép</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="header__submenu">
+                                    <h3 class="header__menu-heading">PHỤ KIỆN</h3>
+                                    <ul class="header__menu-list">
+                                        <li class="header__menu-item">
+                                            <a href="#">Phụ kiện</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </ul>
+                    </li>
+                    <li class="header__list-item">
+                        <a href="#">TRẺ EM</a>
+                        <ul class="header__subnav">
+                            <div class="header__cat">
+                                <ul class="header__cat-list">
+                                    <li class="header__cat-item">
+                                        <a href="#">NEW ARRIVAL</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="header__menu">
+                                <div class="header__submenu">
+                                    <h3 class="header__menu-heading">BÉ GÁI</h3>
+                                    <ul class="header__menu-list">
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Áo bé gái</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Quần bé gái</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Váy bé gái</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Chân váy bé gái</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Phụ kiện bé gái</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="header__submenu">
+                                    <h3 class="header__menu-heading">BÉ TRAI</h3>
+                                    <ul class="header__menu-list">
+                                        <li class="header__menu-item">
+                                            <a href="#">Áo bé trai</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Quần bé trai</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Phụ kiện bé trai</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </ul>
+                    </li>
+                    <li class="header__list-item">
+                        <a href="#"><span>SIÊU SALE 11/11</span></a>
+                        <ul class="header__subnav">
+                            <div class="header__cat">
+                                <ul class="header__cat-list">
+                                    <li class="header__cat-item">
+                                        <a href="#">SUPER SALE</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="header__menu">
+                                <div class="header__submenu">
+                                    <h3 class="header__menu-heading">Clearance Sale Outlet</h3>
+                                    <ul class="header__menu-list">
+                                        <li class="header__menu-item">
+                                            <a href="#">NỮ</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Nam</a>
+                                        </li>
+
+                                        <li class="header__menu-item">
+                                            <a href="#">Trẻ em</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="header__list-item"><a href="#">LIFESTYLE</a></li>
+                    <li class="header__list-item about">
+                        <a href="#">VỀ CHÚNG TÔI</a>
+                        <ul class="header__about">
+                            <li class="header__about-item">
+                                <a href="#">Về IVY moda</a>
+                            </li>
+
+                            <li class="header__about-item">
+                                <a href="#">Fashion Show</a>
+                            </li>
+
+                            <li class="header__about-item">
+                                <a href="#">Hoạt động cộng đồng</a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
 
-            </li>
-            <li><a href="">NAM</a></li>
-            <li><a href="">TRẺ EM</a></li>
-            <li><a href="">SALE</a></li>
-            <li><a href="">KHẨU TRANG</a></li>
-            <li><a href="">BỘ SƯU TẬP</a></li>
-            <li><a href="">THÔNG TIN</a></li>
-        </div>
+                <div class="header__logo">
+                    <a class="header__logo-link" href="#">
+                        <img src="./assets/images/logo.png" alt="">
+                    </a>
+                </div>
 
-        <div class="others">
-            <li>
-                <input type="text" placeholder="Tìm kiếm">
-                <i class="fa-solid header-icon fa-magnifying-glass"></i>
-            </li>
-            <li><i class="fa-solid header-icon fa-paw"></i></li>
-            <li><i class="fa-solid header-icon fa-user"></i></li>
-            <li><i class="fa-solid header-icon fa-bag-shopping"></i></li>
+                <div class="header__orthers">
+                    <form class="header__orthers-search">
+                        <button class="header__orthers-submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        <input type="text" id="header__orthers-input" placeholder="TÌM KIẾM SẢN PHẨM">
+
+                        <div class="header__quicksearch">
+                            <h3 class="header__quicksearch-heading">
+                                Tìm kiếm nhiều nhất
+                            </h3>
+
+                            <div class="header__quicksearch-suggest">
+                                <div class="header__quicksearch-item">
+                                    <a href="#">Đầm</a>
+                                </div>
+
+                                <div class="header__quicksearch-item">
+                                    <a href="#">Trễ vai</a>
+                                </div>
+
+                                <div class="header__quicksearch-item">
+                                    <a href="#">Áo khoác</a>
+                                </div>
+
+                                <div class="header__quicksearch-item">
+                                    <a href="#">Quần</a>
+                                </div>
+
+                                <div class="header__quicksearch-item">
+                                    <a href="#">Áo sơ mi</a>
+                                </div>
+
+                                <div class="header__quicksearch-item">
+                                    <a href="#">Vest</a>
+                                </div>
+
+                                <div class="header__quicksearch-item">
+                                    <a href="#">Parka</a>
+                                </div>
+
+                                <div class="header__quicksearch-item">
+                                    <a href="#">Tweed</a>
+                                </div>
+
+                                <div class="header__quicksearch-item">
+                                    <a href="#">Croptop</a>
+                                </div>
+
+                                <div class="header__quicksearch-item">
+                                    <a href="#">Chân váy</a>
+                                </div>
+
+                                <div class="header__quicksearch-item">
+                                    <a href="#">Lông cừu</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+
+                    <div class="header__orthers-actions">
+                        <div class="header__help">
+                            <i class="fa-solid fa-headphones"></i>
+
+                            <div class="header__help-navbar">
+                                <div class="header__help-menu">
+                                    <h3 class="header__help-heading">
+                                        Trợ giúp
+                                    </h3>
+
+                                    <ul class="header__help-list">
+                                        <li class="header__help-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-phone-volume"></i>
+                                                Hotline
+                                            </a>
+                                        </li>
+
+                                        <li class="header__help-item">
+                                            <a href="#">
+                                                <i class="fa-regular fa-comment-dots"></i>
+                                                Live chat
+                                            </a>
+                                        </li>
+
+                                        <li class="header__help-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrows-rotate"></i>
+                                                Messenger
+                                            </a>
+                                        </li>
+
+                                        <li class="header__help-item">
+                                            <a href="#">
+                                                <i class="fa-regular fa-envelope"></i>
+                                                Email
+                                            </a>
+                                        </li>
+
+                                        <li class="header__help-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-paw"></i>
+                                                Tra cứu đơn hợp
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__account">
+                            <a href="account.html"><i class="fa-solid fa-user-large"></i></a>
+                        </div>
+
+                        <div class="header__cart">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <span class="header__cart-notice">3</span>
+
+                            <div class="header__cart-action">
+                                <div class="header__cart-heading">
+                                    <div class="header__cart-header">
+                                        <h3>Giỏ hàng</h3>
+                                        <span>3</span>
+                                    </div>
+
+                                    <i class="fa-solid fa-xmark"></i>
+                                </div>
+
+                                <ul class="header__cart-list">
+                                    <li class="header__cart-item">
+                                        <a href="#"><img src="./assets/images/cart-product1.jpg" alt=""></a>
+                                        <div class="header__cart-item-info">
+                                            <a href="#">
+                                                <h3>Áo thun trơn Slim fit</h3>
+                                            </a>
+
+                                            <div class="header__cart-item-option">
+                                                <p>Màu sắc: Trắng</p>
+                                                <p>Size: M</p>
+                                            </div>
+
+                                            <div class="header__cart-item-quantity">
+                                                <div class="header__cart-item-input">
+                                                    <button
+                                                        onclick="this.parentNode.querySelector('input[type=number]').stepDown()"></button>
+                                                    <input min="1" name="quantity" value="1" type="number">
+                                                    <button
+                                                        onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                                        class="plus"></button>
+                                                </div>
+                                                <span>207.000<sup>đ</sup></span>
+                                            </div>
+
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <a href="#"><img src="./assets/images/cart-product2.jpg" alt=""></a>
+                                        <div class="header__cart-item-info">
+                                            <a href="#">
+                                                <h3>Áo thun nam cổ đức</h3>
+                                            </a>
+
+                                            <div class="header__cart-item-option">
+                                                <p>Màu sắc: Xanh lá đậm</p>
+                                                <p>Size: M</p>
+                                            </div>
+
+                                            <div class="header__cart-item-quantity">
+                                                <div class="header__cart-item-input">
+                                                    <button
+                                                        onclick="this.parentNode.querySelector('input[type=number]').stepDown()"></button>
+                                                    <input min="1" name="quantity" value="1" type="number">
+                                                    <button
+                                                        onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                                        class="plus"></button>
+                                                </div>
+                                                <span>272.500<sup>đ</sup></span>
+                                            </div>
+
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <a href="#"><img src="./assets/images/cart-product3.jpg" alt=""></a>
+                                        <div class="header__cart-item-info">
+                                            <a href="#">
+                                                <h3>Áo thun nam tay dài</h3>
+                                            </a>
+
+                                            <div class="header__cart-item-option">
+                                                <p>Màu sắc: Xanh cổ vịt</p>
+                                                <p>Size: XL</p>
+                                            </div>
+
+                                            <div class="header__cart-item-quantity">
+                                                <div class="header__cart-item-input">
+                                                    <button
+                                                        onclick="this.parentNode.querySelector('input[type=number]').stepDown()"></button>
+                                                    <input min="1" name="quantity" value="1" type="number">
+                                                    <button
+                                                        onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                                        class="plus"></button>
+                                                </div>
+                                                <span>247.500<sup>đ</sup></span>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <div class="header__cart-bottom">
+                                    <div class="header__cart-total">
+                                        <p>Tổng cộng: </p>
+                                        <span>765.000<sup>đ</sup></span>
+                                    </div>
+
+
+                                    <button class="header__cart-btn">
+                                        <a href="#">XEM GIỎ HÀNG</a>
+                                    </button>
+
+                                    <button class="header__cart-btn">
+                                        <a href="#">ĐĂNG NHẬP</a>
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
         </div>
     </header>
 
-    <!-- slider -->
-    <section id="slider">
-        <div class="slider-wrapper">
-            <i class="fa-solid fa-angle-left slider-pre"></i>
+    <div class="container">
 
-            <ul class="slider-dots">
-                <li class="slider-dot-item active" data-index="0"></li>
-                <li class="slider-dot-item" data-index="1"></li>
-                <li class="slider-dot-item" data-index="2"></li>
-            </ul>
+        <!-- Slider -->
+        <section id="slider">
+            <div class="slider-wrapper">
+                <i class="fa-solid fa-angle-left slider-pre"></i>
 
-            <div class="slider-main">
-                <div class="slider-item">
-                    <img src="./assets/images/slider1.jpg">
+                <ul class="slider-dots">
+                    <li class="slider-dot-item active" data-index="0"></li>
+                    <li class="slider-dot-item" data-index="1"></li>
+                    <li class="slider-dot-item" data-index="2"></li>
+                </ul>
+
+                <div class="slider-main">
+                    <div class="slider-item">
+                        <a href="#"><img src="./assets/images/slider1.jpg"></a>
+                    </div>
+
+                    <div class="slider-item">
+                        <a href="#"><img src="./assets/images/slider2.jpg"></a>
+                    </div>
+
+                    <div class="slider-item">
+                        <a href="#"><img src="./assets/images/slider3.jpg"></a>
+                    </div>
+                </div>
+                <i class="fa-solid fa-angle-right slider-next"></i>
+            </div>
+
+        </section>
+
+        <!-- Collection product -->
+
+        <div class="collection new">
+            <div class="collection__heading">
+                <h1>NEW ARRIVAL</h1>
+            </div>
+
+            <div class="collections__tab">
+                <div class="collections__tab-list">
+                    <div class="collections-tab-item active">
+                        IVY moda
+                    </div>
+
+                    <div class="collections-tab-item">
+                        IVY men
+                    </div>
+
+                    <div class="collections-tab-item">
+                        IVY kids
+                    </div>
                 </div>
 
-                <div class="slider-item">
-                    <img src="./assets/images/slider2.jpg">
-                </div>
+                <div class="collections__tab-content">
+                    <div class="collection__tab-pane active">
+                        <div class="collection__product-list">
+                            <div class="product-item">
+                                <div class="product-item__new-product">
+                                    NEW
+                                </div>
+                                <div class="product-item__sale-off">
+                                    <div class="product-item__sale-off-price">
+                                        -30<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh1.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #a54431"></i>
+                                        <i class="fa-solid fa-circle" style="color: #312f30"></i>
+                                    </div>
 
-                <div class="slider-item">
-                    <img src="./assets/images/slider3.jpg">
-                </div>
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Đầm Suông Tweed</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>1.743.000<sup>đ</sup></p>
+                                        <span>2.490.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
 
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__new-product">
+                                    NEW
+                                </div>
+
+                                <div class="product-item__sale-off">
+                                    <div class="product-item__sale-off-price">
+                                        -30<sup>%</sup>
+                                    </div>
+                                </div>
+
+                                <img src="./assets/images/collection-hinh2.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #949099"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Đầm Kẻ 2 Lớp Tuysi</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>1.603.000<sup>đ</sup></p>
+                                        <span>2.290.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__sale-off">
+                                    <div class="product-item__sale-off-price">
+                                        -30<sup>%</sup>
+                                    </div>
+                                </div>
+
+                                <img src="./assets/images/collection-hinh3.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #c4a680"></i>
+                                        <i class="fa-solid fa-circle" style="color: #a3784e"></i>
+                                        <i class="fa-solid fa-circle" style="color: #2e2e2e"></i>
+                                        <i class="fa-solid fa-circle" style="color: #2e323e"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Oversize Trench Coat</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>2.443.000<sup>đ</sup></p>
+                                        <span>3.490.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__new-product">
+                                    NEW
+                                </div>
+
+                                <div class="product-item__sale-off">
+                                    <div class="product-item__sale-off-price">
+                                        -30<sup>%</sup>
+                                    </div>
+                                </div>
+
+                                <img src="./assets/images/collection-hinh4.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle" style="color: #bc9d77"></i>
+                                        <i class="fa-solid fa-circle active" style="color: #2c303d"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">A-Line Skirt</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>833.000<sup>đ</sup></p>
+                                        <span>1.190.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__new-product">
+                                    NEW
+                                </div>
+
+                                <div class="product-item__sale-off">
+                                    <div class="product-item__sale-off-price">
+                                        -30<sup>%</sup>
+                                    </div>
+                                </div>
+
+                                <img src="./assets/images/collection-hinh5.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #c5b196"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Sand Vest - Áo Vest Phối Khuy Kiểu</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>1.253.000<sup>đ</sup></p>
+                                        <span>1.790.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__new-product">
+                                    NEW
+                                </div>
+
+                                <div class="product-item__sale-off">
+                                    <div class="product-item__sale-off-price">
+                                        -30<sup>%</sup>
+                                    </div>
+                                </div>
+
+                                <img src="./assets/images/collection-hinh6.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #2c2c2c"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Chân Váy Chữ A Phối Phụ Kiện</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>833.000<sup>đ</sup></p>
+                                        <span>1.190.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__new-product">
+                                    NEW
+                                </div>
+
+                                <div class="product-item__sale-off">
+                                    <div class="product-item__sale-off-price">
+                                        -30<sup>%</sup>
+                                    </div>
+                                </div>
+
+                                <img src="./assets/images/collection-hinh7.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #c3b296"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Set Áo Dài Diễm Thư</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>1.743.000<sup>đ</sup></p>
+                                        <span>2.490.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__new-product">
+                                    NEW
+                                </div>
+
+                                <div class="product-item__sale-off">
+                                    <div class="product-item__sale-off-price">
+                                        -30<sup>%</sup>
+                                    </div>
+                                </div>
+
+                                <img src="./assets/images/collection-hinh8.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #2b2d2c"></i>
+                                        <i class="fa-solid fa-circle" style="color: #a38f1e"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Đầm Cổ K Phối Voan</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>1.253.000<sup>đ</sup></p>
+                                        <span>1.790.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__new-product">
+                                    NEW
+                                </div>
+
+                                <div class="product-item__sale-off">
+                                    <div class="product-item__sale-off-price">
+                                        -30<sup>%</sup>
+                                    </div>
+                                </div>
+
+                                <img src="./assets/images/collection-hinh9.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle" style="color: #2f2f2f"></i>
+                                        <i class="fa-solid fa-circle active" style="color: #a38f1e"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Đầm Cổ K Phối Voan</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>1.253.000<sup>đ</sup></p>
+                                        <span>1.790.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__new-product">
+                                    NEW
+                                </div>
+
+                                <div class="product-item__sale-off">
+                                    <div class="product-item__sale-off-price">
+                                        -30<sup>%</sup>
+                                    </div>
+                                </div>
+
+                                <img src="./assets/images/collection-hinh10.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle" style="color: #fff"></i>
+                                        <i class="fa-solid fa-circle active" style="color: #2e2e2e"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Khoác Croptop Thêu Hoa</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>1.113.000<sup>đ</sup></p>
+                                        <span>1.590.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="collection__tab-pane">
+                        <div class="collection__product-list">
+                            <div class="product-item">
+                                <div class="product-item__sale-off strong">
+                                    <div class="product-item__sale-off-price">
+                                        -75<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh21.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #a3784e"></i>
+                                        <i class="fa-solid fa-circle" style="color: #676768"></i>
+                                        <i class="fa-solid fa-circle" style="color: #fff"></i>
+                                        <i class="fa-solid fa-circle" style="color: #d1c5b0"></i>
+                                        <i class="fa-solid fa-circle" style="color: #646464"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Vest Cổ Hai Ve</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>800.000<sup>đ</sup></p>
+                                        <span>3.200.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__sale-off strong">
+                                    <div class="product-item__sale-off-price">
+                                        -75<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh22.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #a3784e"></i>
+                                        <i class="fa-solid fa-circle" style="color: #676768"></i>
+                                        <i class="fa-solid fa-circle" style="color: #fff"></i>
+                                        <i class="fa-solid fa-circle" style="color: #d1c5b0"></i>
+                                        <i class="fa-solid fa-circle" style="color: #646464"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Vest Cổ Hai Ve</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>800.000<sup>đ</sup></p>
+                                        <span>3.200.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__sale-off strong">
+                                    <div class="product-item__sale-off-price">
+                                        -75<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh23.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle" style="color: #4b5e66"></i>
+                                        <i class="fa-solid fa-circle active" style="color: #433533"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Khoác Nam Dáng Lửng</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>822.500<sup>đ</sup></p>
+                                        <span>3.290.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__sale-off strong">
+                                    <div class="product-item__sale-off-price">
+                                        -75<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh24.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #c4cae1"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Sơ Mi Regular Fit</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>272.500<sup>đ</sup></p>
+                                        <span>1.090.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__sale-off strong">
+                                    <div class="product-item__sale-off-price">
+                                        -70<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh25.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle" style="color: #58726f"></i>
+                                        <i class="fa-solid fa-circle active" style="color: #262a31"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Polo Suông</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>207.000<sup>đ</sup></p>
+                                        <span>690.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__sale-off strong">
+                                    <div class="product-item__sale-off-price">
+                                        -70<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh26.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle" style="color: #58726f"></i>
+                                        <i class="fa-solid fa-circle active" style="color: #262a31"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Polo Suông</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>207.000<sup>đ</sup></p>
+                                        <span>690.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__sale-off strong">
+                                    <div class="product-item__sale-off-price">
+                                        -75<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh27.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #ced4dc"></i>
+                                        <i class="fa-solid fa-circle" style="color: #767981"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Sơ Mi Viền Cổ</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>297.500<sup>đ</sup></p>
+                                        <span>1.190.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+
+                    <div class="collection__tab-pane">
+                        <div class="collection__product-list">
+                            <div class="product-item">
+                                <div class="product-item__new-product">
+                                    NEW
+                                </div>
+
+                                <div class="product-item__sale-off">
+                                    <div class="product-item__sale-off-price">
+                                        -30<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh32.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #fff"></i>
+                                        <i class="fa-solid fa-circle" style="color: #fd8f38"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Polo Fight</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>349.300<sup>đ</sup></p>
+                                        <span>499.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__new-product">
+                                    NEW
+                                </div>
+
+                                <div class="product-item__sale-off">
+                                    <div class="product-item__sale-off-price">
+                                        -30<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh33.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle" style="color: #fff"></i>
+                                        <i class="fa-solid fa-circle active" style="color: #2c5f46"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Thun Classic</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>244.300<sup>đ</sup></p>
+                                        <span>349.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__new-product">
+                                    NEW
+                                </div>
+
+                                <div class="product-item__sale-off">
+                                    <div class="product-item__sale-off-price">
+                                        -30<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh34.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle" style="color: #ae7d89"></i>
+                                        <i class="fa-solid fa-circle active" style="color: #ec6b97"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Len Your Queen</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>245.000<sup>đ</sup></p>
+                                        <span>350.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+
+                                <div class="product-item__sale-off">
+                                    <div class="product-item__sale-off-price">
+                                        -30<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh35.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle" style="color: #fcdce0"></i>
+                                        <i class="fa-solid fa-circle active" style="color: #a95f73"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Thun In Hoa Có Mũ</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>349.300<sup>đ</sup></p>
+                                        <span>499.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+
+                                <div class="product-item__sale-off">
+                                    <div class="product-item__sale-off-price">
+                                        -30<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh37.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #fcdce0"></i>
+                                        <i class="fa-solid fa-circle" style="color: #a95f73"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Thun In Hoa Có Mũ</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>349.300<sup>đ</sup></p>
+                                        <span>499.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+
+                                <div class="product-item__sale-off">
+                                    <div class="product-item__sale-off-price">
+                                        -30<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh36.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #fff"></i>
+                                        <i class="fa-solid fa-circle" style="color: #a95f73"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Zuýp 2 Lớp Pretty</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>279.300<sup>đ</sup></p>
+                                        <span>399.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
 
             </div>
-            <i class="fa-solid fa-angle-right slider-next"></i>
+
+            <div class="collection__show-all">
+                <button class="collection__show">
+                    <a href="category.html">Xem tất cả</a>
+                </button>
+            </div>
         </div>
 
+        <div class="collection sale-up">
+            <div class="collection__heading">
+                <h1>BLACK FRIDAY - SALE UPTO 50%</h1>
+            </div>
 
-    </section>
+            <div class="collections__tab">
+                <div class="collections__tab-list">
+                    <div class="collections-tab-item active">
+                        IVY moda
+                    </div>
 
-    <!-- app-download -->
-    <section class="app-container">
-        <h3>Tải ứng dụng IVY Moda</h3>
-        <div class="download">
-            <a href="#"><img src="./assets/images/appstore.png"></a>
-            <a href="#"><img src="./assets/images/google_play.png"></a>
+                    <div class="collections-tab-item">
+                        IVY men
+                    </div>
+
+                    <div class="collections-tab-item">
+                        IVY kids
+                    </div>
+                </div>
+
+                <div class="collections__tab-content">
+                    <div class="collection__tab-pane active">
+                        <div class="collection__product-list">
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off nor">
+                                    <div class="product-item__sale-off-price">
+                                        -50<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh47.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #c5b197"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Sheath Set - Áo Khoác Lửng Cùng Đầm Xòe</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>1.690.000<sup>đ</sup></p>
+                                        <span>3.380.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off nor">
+                                    <div class="product-item__sale-off-price">
+                                        -50<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh12.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #b4b5b0"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Silver Mist Blazer</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>895.000<sup>đ</sup></p>
+                                        <span>1.790.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off nor">
+                                    <div class="product-item__sale-off-price">
+                                        -50<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh11.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #a9311f"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Orange Tweed - Áo Dạ Suông Dáng Ngắn</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>995.000<sup>đ</sup></p>
+                                        <span>1.990.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off nor">
+                                    <div class="product-item__sale-off-price">
+                                        -50<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh14.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #b9a179"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Phedra Vest - Áo Vest Xếp Chéo</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>895.000<sup>đ</sup></p>
+                                        <span>1.790.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off nor">
+                                    <div class="product-item__sale-off-price">
+                                        -50<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh15.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #303030"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Tana Pants - Quần Suông Cách Điệu</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>695.000<sup>đ</sup></p>
+                                        <span>1.390.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off nor">
+                                    <div class="product-item__sale-off-price">
+                                        -50<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh16.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #c13d31"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Sơ Mi Bo Gấu</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>545.000<sup>đ</sup></p>
+                                        <span>1.090.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off nor">
+                                    <div class="product-item__sale-off-price">
+                                        -50<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh17.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #fff"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Sơ Mi Lụa Cổ Đức</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>575.000<sup>đ</sup></p>
+                                        <span>1.150.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off">
+                                    <div class="product-item__sale-off-price">
+                                        -30<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh18.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle" style="color: #fff"></i>
+                                        <i class="fa-solid fa-circle active" style="color: #2e2e2e"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Lealia Blazer - Áo Blazer Nhung Trơn</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>1.393.000<sup>đ</sup></p>
+                                        <span>1.990.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off">
+                                    <div class="product-item__sale-off-price">
+                                        -30<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh19.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle" style="color: #2e2e2e"></i>
+                                        <i class="fa-solid fa-circle active" style="color: #a54431"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Maddy Dress - Đầm Tweed Cách Điệu</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>1.603.000<sup>đ</sup></p>
+                                        <span>2.290.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off">
+                                    <div class="product-item__sale-off-price">
+                                        -30<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh20.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #fff"></i>
+                                        <i class="fa-solid fa-circle" style="color: #2f2f2f"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Lealia Blazer - Áo Blazer Nhung Trơn</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>1.393.000<sup>đ</sup></p>
+                                        <span>1.990.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="collection__tab-pane">
+                        <div class="collection__product-list">
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off nor">
+                                    <div class="product-item__sale-off-price">
+                                        -50<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh28.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle" style="color: #bda179"></i>
+                                        <i class="fa-solid fa-circle" style="color: #324436"></i>
+                                        <i class="fa-solid fa-circle active" style="color: #6d6d6e"></i>
+                                        <i class="fa-solid fa-circle" style="color: #2f2f2f"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Khoác Chần Bông</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>1.295.000<sup>đ</sup></p>
+                                        <span>2.590.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off nor">
+                                    <div class="product-item__sale-off-price">
+                                        -50<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh49.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #bda179"></i>
+                                        <i class="fa-solid fa-circle" style="color: #324436"></i>
+                                        <i class="fa-solid fa-circle" style="color: #6d6d6e"></i>
+                                        <i class="fa-solid fa-circle" style="color: #2f2f2f"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Khoác Chần Bông</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>1.295.000<sup>đ</sup></p>
+                                        <span>2.590.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off nor">
+                                    <div class="product-item__sale-off-price">
+                                        -50<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh48.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle" style="color: #bda179"></i>
+                                        <i class="fa-solid fa-circle active" style="color: #324436"></i>
+                                        <i class="fa-solid fa-circle" style="color: #6d6d6e"></i>
+                                        <i class="fa-solid fa-circle" style="color: #2f2f2f"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Khoác Chần Bông</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>1.295.000<sup>đ</sup></p>
+                                        <span>2.590.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off nor">
+                                    <div class="product-item__sale-off-price">
+                                        -50<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh29.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #335552"></i>
+                                        <i class="fa-solid fa-circle" style="color: #303030"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Khoác Phao Siêu Nhẹ</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>1.295.000<sup>đ</sup></p>
+                                        <span>2.590.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off nor">
+                                    <div class="product-item__sale-off-price">
+                                        -50<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh50.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle" style="color: #335552"></i>
+                                        <i class="fa-solid fa-circle active" style="color: #303030"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Khoác Phao Siêu Nhẹ</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>1.295.000<sup>đ</sup></p>
+                                        <span>2.590.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off nor">
+                                    <div class="product-item__sale-off-price">
+                                        -50<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh30.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #c6a884"></i>
+                                        <i class="fa-solid fa-circle" style="color: #313037"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Khoác Blazer Nam</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>672.500<sup>đ</sup></p>
+                                        <span>2.690.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off nor">
+                                    <div class="product-item__sale-off-price">
+                                        -50<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh31.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #486065"></i>
+                                        <i class="fa-solid fa-circle" style="color: #433532"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Khoác Nam Dáng Lửng</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>822.500<sup>đ</sup></p>
+                                        <span>3.290.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+
+                    <div class="collection__tab-pane">
+                        <div class="collection__product-list">
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off nor">
+                                    <div class="product-item__sale-off-price">
+                                        -50<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh38.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle" style="color: #f3b9c6"></i>
+                                        <i class="fa-solid fa-circle active" style="color: #ac8090"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Bộ Nỉ Dài Tay Gardens</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>370.000<sup>đ</sup></p>
+                                        <span>740.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off nor">
+                                    <div class="product-item__sale-off-price">
+                                        -50<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh39.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #f0eade"></i>
+                                        <i class="fa-solid fa-circle" style="color: #f5bcc6"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Khoác Len Cổ Bèo Phối Nơ</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>410.000<sup>đ</sup></p>
+                                        <span>820.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off nor">
+                                    <div class="product-item__sale-off-price">
+                                        -50<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh40.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #ebb971"></i>
+                                        <i class="fa-solid fa-circle" style="color: #fb707e"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Khoác Len Đính Khuy Ngọc Trai</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>459.500<sup>đ</sup></p>
+                                        <span>919.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off nor">
+                                    <div class="product-item__sale-off-price">
+                                        -50<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh41.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #a88281"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Đầm Thun Dài Tay Smile</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>225.000<sup>đ</sup></p>
+                                        <span>450.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off nor">
+                                    <div class="product-item__sale-off-price">
+                                        -50<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh42.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle" style="color: #c4b397"></i>
+                                        <i class="fa-solid fa-circle active" style="color: #6b6b73"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Thun Khủng Long</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>245.000<sup>đ</sup></p>
+                                        <span>490.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off nor">
+                                    <div class="product-item__sale-off-price">
+                                        -50<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh43.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #fff"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Sơ Mi Trắng Bé Gái</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>345.000<sup>đ</sup></p>
+                                        <span>690.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off nor">
+                                    <div class="product-item__sale-off-price">
+                                        -50<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh44.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle" style="color: #2f5c9d"></i>
+                                        <i class="fa-solid fa-circle active" style="color: #334166"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Gile Len Bé Trai</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>414.500<sup>đ</sup></p>
+                                        <span>829.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off nor">
+                                    <div class="product-item__sale-off-price">
+                                        -50<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh45.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #c8a983"></i>
+                                        <i class="fa-solid fa-circle" style="color: #a38f1e"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Len Dệt Hình Thú</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>440.000<sup>đ</sup></p>
+                                        <span>880.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-item">
+                                <div class="product-item__best-seller">
+                                    Best Seller
+                                </div>
+                                <div class="product-item__sale-off nor">
+                                    <div class="product-item__sale-off-price">
+                                        -50<sup>%</sup>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/collection-hinh46.jpg" alt="">
+                                <div class="product-item__select">
+                                    <div class="product-item__select-color">
+                                        <i class="fa-solid fa-circle active" style="color: #a38f1e"></i>
+                                    </div>
+
+                                    <div class="product-item__select-favorite">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                </div>
+                                <p class="product-item-title">Áo Khoác Giả Lông Cừu Bé Gái</p>
+                                <div class="product-item-price-wrapper">
+                                    <div class="product-item-price">
+                                        <p>675.000<sup>đ</sup></p>
+                                        <span>1.350.000<sup>đ</sup></span>
+                                    </div>
+                                    <div class="product-item-cart">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <ul class="product-size-list">
+                                            <li class="product-size-item">S</li>
+                                            <li class="product-size-item">M</li>
+                                            <li class="product-size-item">L</li>
+                                            <li class="product-size-item">XL</li>
+                                            <li class="product-size-item">XXL</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="collection__show-all">
+                <button class="collection__show">
+                    <a href="category.html">Xem tất cả</a>
+                </button>
+            </div>
         </div>
 
-        <h3>Nhận bản tin Ivy Moda</h3>
+        <!-- Trending Image -->
 
-        <div class="sent-mail">
-            <input type="text" placeholder="Nhập email của bạn ...">
-            <i class="fa-regular fa-paper-plane send-icon"></i>
+        <div class="trending">
+            <a href="#"><img src="./assets/images/trending-img.jpg" alt="" class="trending-img"></a>
         </div>
-    </section>
+
+        <!-- Gallery -->
+
+        <div class="gallery">
+            <div class="gallery__title">
+                <h1>GALLERY</h1>
+            </div>
+
+            <div class="gallery__list">
+                <div class="gallery__item">
+                    <a href="#">
+                        <img src="./assets/images/gallery-item1.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="gallery__item">
+                    <a href="#">
+                        <img src="./assets/images/gallery-item2.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="gallery__item">
+                    <a href="#">
+                        <img src="./assets/images/gallery-item3.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="gallery__item">
+                    <a href="#">
+                        <img src="./assets/images/gallery-item4.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="gallery__item">
+                    <a href="#">
+                        <img src="./assets/images/gallery-item5.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="gallery__item">
+                    <a href="#">
+                        <img src="./assets/images/gallery-item1.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="gallery__item">
+                    <a href="#">
+                        <img src="./assets/images/gallery-item2.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="gallery__item">
+                    <a href="#">
+                        <img src="./assets/images/gallery-item3.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="gallery__item">
+                    <a href="#">
+                        <img src="./assets/images/gallery-item4.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="gallery__item">
+                    <a href="#">
+                        <img src="./assets/images/gallery-item5.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
 
     <!-- footer -->
-    <footer>
-        <div class="footer-top">
-            <ul>
-                <li><a href="http://online.gov.vn/Home/WebDetails/36596" target="_blank"><img src="./assets/images/certificate.png"></a></li>
-                <li><a href="#">Liên hệ</a></li>
-                <li><a href="#">Tuyển dụng</a></li>
-                <li><a href="#">Giới thiệu</a></li>
-                <li>
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                </li>
-            </ul>
+    <footer class="footer">
+        <div class="footer-site">
+            <div class="container">
+                <div class="footer-wraper">
+                    <div class="footer-about">
+                        <div class="footer-about__policy">
+                            <a href="#"><img src="./assets/images/logo.png" alt=""></a>
+                            <a href="#"><img src="./assets/images/dmcapolicy.png" alt=""></a>
+                            <a href="#"><img src="./assets/images/certificate.png" alt=""></a>
+                        </div>
+
+                        <div class="footer-about__info">
+                            <p>Công ty Cổ phần Dự Kim với số đăng ký kinh doanh: 0105777650</p>
+                        </div>
+
+                        <div class="footer-about__info">
+                            <span>Địa chỉ đăng ký: </span>
+                            <p>Tổ dân phố Tháp, P.Đại Mỗ, Q.Nam Từ Liêm, TP.Hà Nội, Việt Nam</p>
+                        </div>
+
+                        <div class="footer-about__info">
+                            <span>Số điện thoại: </span>
+                            <p>0243 205 2222/ 090 589 8683</p>
+                        </div>
+
+                        <div class="footer-about__info">
+                            <span>Email: </span>
+                            <p>cskh@ivy.com.vn</p>
+                        </div>
+
+                        <div class="footer-about__social">
+                            <a href="#">
+                                <img src="./assets/images/ic_fb.svg" alt="">
+                            </a>
+
+                            <a href="#">
+                                <img src="./assets/images/ic_gg.svg" alt="">
+                            </a>
+
+                            <a href="#">
+                                <img src="./assets/images/ic_instagram.svg" alt="">
+                            </a>
+
+                            <a href="#">
+                                <img src="./assets/images/ic_pinterest.svg" alt="">
+                            </a>
+
+                            <a href="#">
+                                <img src="./assets/images/ic_ytb.svg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="footer-about__hotline">
+                            <a href="tel:02466623434">HOTLINE: 0246 662 3434</a>
+                        </div>
+                    </div>
+
+                    <div class="footer-introduce">
+                        <div class="footer-introduce__heading">
+                            <h3>Giới thiệu</h3>
+                        </div>
+
+                        <ul class="footer-introduce-list">
+                            <li class="footer-introduce-item">
+                                <a href="#">Về IVY moda</a>
+                            </li>
+                            <li class="footer-introduce-item">
+                                <a href="#">Tuyển dụng</a>
+                            </li>
+                            <li class="footer-introduce-item">
+                                <a href="#">Hệ thống cửa hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-service">
+                        <div class="footer-service__heading">
+                            <h3>Dịch vụ khách hàng</h3>
+                        </div>
+
+                        <ul class="footer-service-list">
+                            <li class="footer-service-item">
+                                <a href="#">Chính sách điều khoản</a>
+                            </li>
+                            <li class="footer-service-item">
+                                <a href="#">Hướng dẫn mua hàng</a>
+                            </li>
+                            <li class="footer-service-item">
+                                <a href="#">Chính sách thanh toán</a>
+                            </li>
+                            <li class="footer-service-item">
+                                <a href="#">Chính sách đổi trả</a>
+                            </li>
+                            <li class="footer-service-item">
+                                <a href="#">Chính sách bảo hành</a>
+                            </li>
+                            <li class="footer-service-item">
+                                <a href="#">Chính sách giao nhận vận chuyển</a>
+                            </li>
+                            <li class="footer-service-item">
+                                <a href="#">Chính sách thẻ thành viên</a>
+                            </li>
+                            <li class="footer-service-item">
+                                <a href="#">Hệ thống cửa hàng</a>
+                            </li>
+                            <li class="footer-service-item">
+                                <a href="#">Q&A</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-contact">
+                        <div class="footer-contact__heading">
+                            <h3>Liên hệ</h3>
+                        </div>
+
+                        <ul class="footer-contact-list">
+                            <li class="footer-contact-item">
+                                <a href="#">Hotline</a>
+                            </li>
+                            <li class="footer-contact-item">
+                                <a href="#">Email</a>
+                            </li>
+                            <li class="footer-contact-item">
+                                <a href="#">Live Chat</a>
+                            </li>
+                            <li class="footer-contact-item">
+                                <a href="#">Messenger</a>
+                            </li>
+                            <li class="footer-contact-item">
+                                <a href="#">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-interact">
+                        <div class="footer-email">
+                            <div class="footer-email__heading">
+                                <h3>Nhận thông tin các chương trình của IVY moda</h3>
+                            </div>
+
+                            <div class="footer-email__form">
+                                <input id="footer-email__subcribe" type="mail" placeholder="Nhập địa chỉ email"
+                                    required="required">
+                                <button class="footer-email__submit">Đăng ký</button>
+                            </div>
+                        </div>
+
+                        <div class="footer-download">
+                            <div class="footer-download__heading">
+                                <h3>Download App</h3>
+                            </div>
+
+                            <div class="footer-download__img">
+                                <a href="#"><img src="./assets/images/appstore.png" alt=""></a>
+                                <a href="#"><img src="./assets/images/googleplay.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    
-        <div class="footer-bottom">
-            <p>
-                Công ty Cổ phần Dự Kim với số đăng ký kinh doanh: 0105777650
-            </p>
-    
-            <p>
-                <span>Địa chỉ đăng ký: </span> Tổ dân phố Tháp, P.Đại Mỗ, Q.Nam Từ Liêm, TP.Hà Nội, Việt Nam
-            </p>
-    
-            <p>
-                <span>Số điện thoại: </span> 0243 205 2222/ 090 589 8683
-            </p>
-    
-            <p>
-                <span>Email: </span> cskh@ivy.com.vn
-            </p>
-    
-            <p>©IVYmoda All rights reserved</p>
-        </div>
+        <p class="footer-copyright">©IVYmoda All rights reserved</p>
     </footer>
-
-
 
 </body>
 
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 <script src="./main.js"></script>
 <script src="./slider.js"></script>
+<script src="./assets/js/index.js"></script>
 
 </html>

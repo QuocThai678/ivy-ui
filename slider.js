@@ -56,7 +56,3 @@ function handleChangeSlide(direction) {
     Array.from(dotsItem).forEach(item => item.classList.remove('active'))
     dotsItem[index].classList.add("active");
 }
-
-setInterval(function() {
-    nextBtn.click()
-}, 5000)
